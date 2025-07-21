@@ -32,8 +32,7 @@ Retail-Sales-Dashboard/
    └── sales_queries.sql  
  DAX/
    └── retail_dax_measures.txt  
- PowerBI/
- 
+ PowerBI/ 
    └── Retail_Dashboard.pbix  
    └── Screenshot.png
 
