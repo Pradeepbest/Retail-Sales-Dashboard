@@ -1,0 +1,12 @@
+
+-- DAX Measures for Retail Sales Dashboard
+
+Total Sales = SUMX(SalesData, SalesData[Quantity] * SalesData[UnitPrice])
+
+Total Orders = DISTINCTCOUNT(SalesData[OrderID])
+
+Total Customers = DISTINCTCOUNT(SalesData[CustomerName])
+
+Average Order Value (AOV) = [Total Sales] / [Total Orders]
+
+Total Shipping Cost = SUM(SalesData[ShippingCost])
