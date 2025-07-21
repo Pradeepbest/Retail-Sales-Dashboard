@@ -25,6 +25,7 @@ The dashboard provides insights into:
 ## 🗂️ Folder Structure
 
 Retail-Sales-Dashboard/
+ 
  Data/
    └── SampleData_RetailSales.xlsx  
  SQL/
@@ -32,6 +33,7 @@ Retail-Sales-Dashboard/
  DAX/
    └── retail_dax_measures.txt  
  PowerBI/
+ 
    └── Retail_Dashboard.pbix  
    └── Screenshot.png
 
